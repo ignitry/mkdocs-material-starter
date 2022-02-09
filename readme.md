@@ -3,7 +3,7 @@
 This project is a starter template for [MkDocs Material](https://github.com/squidfunk/mkdocs-material)
 
 ## Include
-- use `slate` as a default theme for `dark` look
+- use `slate` as a default theme for `dark` look. Change to `default` for `light` theme
 - codeblock
 - mermaid diagram
   - extra stylesheets to center mermaid diagrams
