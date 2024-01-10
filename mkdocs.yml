@@ -4,9 +4,24 @@ theme:
   name: material
   palette:
     scheme: slate
+  font:
+    text: Roboto
+  features:
+    - navigation.top
+    - navigation.sections
+    - toc.follow
+    # - navigation.tabs
+    # - navigation.tabs.sticky
+    # - toc.integrate
 
 plugins:
   - search
+  - mkdocs-nav-weight:
+      section_renamed: true
+      index_weight: -100
+      warning: true
+      reverse: false
+      headless_included: false
   - mermaid2:
       arguments:
         theme: dark
