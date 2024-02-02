@@ -8,3 +8,8 @@ This project is a starter template for [MkDocs Material](https://github.com/squi
 - mermaid diagram
   - extra stylesheets to center mermaid diagrams
 - Dockerfile, docker-compose.yml
+
+## Add `.env` when use with docker compose
+```shell
+PORT = 8000 # specify port here
+```

@@ -1,7 +1,7 @@
-FROM python:3.9.2-alpine3.13 as mkdocs
+FROM python:3.11.7-alpine3.19 as mkdocs
 
 # Environment variables
-ENV PACKAGES=/usr/local/lib/python3.9/site-packages
+ENV PACKAGES=/usr/local/lib/python3.11/site-packages
 ENV PYTHONDONTWRITEBYTECODE=1
 
 # Set build directory
