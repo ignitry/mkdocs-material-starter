@@ -6,4 +6,3 @@ services:
       context: .
     volumes:
       - .:/app
-    network_mode: "host"
